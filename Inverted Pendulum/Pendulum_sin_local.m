@@ -171,7 +171,7 @@ cvx_begin sdp quiet
     Qsec = lambda1*R_sec'*Psi_sec'*M_sec*Psi_sec*R_sec;
     
     % Matrix Inequality
-    QV + Qphi + Qsec + Qoff <= 0;
+    QV + Qphi + Qsec + Qoff <= -1e-10*eye(nzeta+nphi+nq);
     for i = 1:n1
     % enforce {x: x'Px<=1} \subset {x: |[W0(i,:) 0]*x| <= r1} 
         [deltav1^2, [W1(i,:) zeros(1,nxi)];...
