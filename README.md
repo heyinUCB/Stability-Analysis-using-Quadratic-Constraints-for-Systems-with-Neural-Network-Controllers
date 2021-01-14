@@ -13,3 +13,6 @@ There is one package required:
 
 ### Way of Using the Code
 * Interted pendulum example: go to its folder, and run the file **Pendulum_sin_local.m**
+
+## ROA inner-approximation for a control saturated inverted pendulum
+![pendulum](Inverted\ Pendulum_control_saturation/pendulum_saturation.pdf)
