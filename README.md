@@ -10,3 +10,6 @@ All the code is written in MATLAB.
 ### Prerequisites
 There is one package required:
 * [MOSEK](https://www.mosek.com/): Commercial semidefinite programming solver
+
+### Way of Using the Code
+* Interted pendulum example: go to its folder, and run the file **Pendulum_sin_local.m**
