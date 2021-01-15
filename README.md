@@ -2,9 +2,9 @@
 This code is to accompany the paper [Stability Analysis using Quadratic Constraints for Systems with Neural Network Controllers](https://arxiv.org/pdf/2006.07579.pdf). It computes an ellipsoidal inner-approximation to the region of attraction of NN controlled-systems.
 
 ### Authors:
-He Yin (he_yin at berkeley.edu)
-Peter Seiler (pseiler at umich.edu)
-Murat Arcak (arcak at berkeley.edu)
+* He Yin (he_yin at berkeley.edu)
+* Peter Seiler (pseiler at umich.edu)
+* Murat Arcak (arcak at berkeley.edu)
 
 ## Getting Started
 All the code is written in MATLAB.
