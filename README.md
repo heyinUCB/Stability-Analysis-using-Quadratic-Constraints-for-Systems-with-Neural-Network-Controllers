@@ -15,7 +15,8 @@ There are two packages required:
 * [CVX](http://cvxr.com/cvx/): Matlab software for convex programming
 
 ### Way of Using the Code
-* Interted pendulum example: go to its folder, and run the file **Pendulum_sin_local.m**
+* Interted pendulum example: In the folder **Inverted_Pendulum_control_saturation**, the actuator saturation is considered; and in the folder **Inverted_Pendulum_no_saturation**, the actuator saturation is not considered. In both folders, run the file **Pendulum_sin_local.m** to compute the ROA inner-approximation.
+* vehicle lateral control example: two experiments are includes. In the file **Vehicle_Sector_LTIunc.m**, the activation functions in the neural network are described only by the sector IQC; in the file **Vehicle_Offby1andSector_LTIunc.m**, the activation functions are described by both off-by-one and sector IQCs. Run **plot_Figure8.m** to visualize the results.
 
 ## ROA inner-approximation for a control saturated inverted pendulum
 ![pendulum](Inverted_Pendulum_control_saturation/pendulum_saturation.jpg)
