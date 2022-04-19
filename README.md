@@ -19,7 +19,7 @@ To plot the computed ROA, two more packages are required:
 * [Multipoly](https://dept.aem.umn.edu/~AerospaceControl/): Package used to represent multivariate polynomials
 
 To run the NN controller generating code
-* [Tensorflow]
+* [Tensorflow](https://www.tensorflow.org/): ML platform
 
 ### Way of Using the Code for Stability Analysis
 * Interted pendulum example: In the folder **Inverted_Pendulum_control_saturation**, the actuator saturation is considered; and in the folder **Inverted_Pendulum_no_saturation**, the actuator saturation is not considered. In both folders, run the file **Pendulum_sin_local.m** to compute the ROA inner-approximation.
